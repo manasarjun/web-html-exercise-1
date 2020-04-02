@@ -3,6 +3,8 @@ body {
   font-family: 'Gothic A1', sans-serif;
 }
 
+
+
 h1, h2, h3 {
   font-weight: 900;
 }
@@ -135,4 +137,12 @@ h3 {
   background-color: white;
   color: black;
   border: solid 4px black;
+}
+
+.pink-text {
+  color: pink;
+}
+
+#yellow-text {
+  color: greenyellow;
 }
