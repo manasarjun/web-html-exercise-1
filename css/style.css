@@ -40,19 +40,6 @@ h3 {
 
 }
 
-.section-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-column-gap: 50px;
-
-
-}
-
-.article {
-  text-align: left;
-}
-
-
 
 /* Header */
 .personal-info {
@@ -120,6 +107,12 @@ h3 {
   vertical-align: top;
 }
 
+.section .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 24px
+}
+
 @media(min-width: 550px) {
   .section .grid {
     display: grid;
@@ -154,12 +147,4 @@ h3 {
   background-color: white;
   color: black;
   border: solid 4px black;
-}
-
-.pink-text {
-  color: pink;
-}
-
-#yellow-text {
-  color: greenyellow;
 }
