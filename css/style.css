@@ -1,6 +1,7 @@
 /* General */
 body {
   font-family: 'Gothic A1', sans-serif;
+
 }
 
 
@@ -30,12 +31,28 @@ h3 {
 }
 
 /* Container */
+
 .container {
   box-sizing: border-box;
   max-width: 1024px;
   margin: 0 auto;
   padding: 64px 16px 32px 16px;
+
 }
+
+.section-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 50px;
+
+
+}
+
+.article {
+  text-align: left;
+}
+
+
 
 /* Header */
 .personal-info {
